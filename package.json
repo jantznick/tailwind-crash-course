@@ -95,7 +95,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server .",
-    "build": "webpack ."
+    "build": "webpack .",
+    "build-css": "tailwindcss -i ./public/app.css -o ./dist/app.css"
   },
   "keywords": [],
   "author": "",

@@ -1,11 +1,19 @@
 import React from "react";
-import './app.css'; 
+import '../public/app.css';
+
+import NavBar from "./NavBar";
+import Hero from "./Hero";
+import Features from "./Features";
+import Testimonials from "./Testimonials";
 
 const App = () => {
 	return (
-		<h1 className="text-primary text-4xl font-bold text-center">
-			Hello world! I am using React
-		</h1>
+		<>
+			<NavBar />
+			<Hero />
+			<Features />
+			<Testimonials />
+		</>
 	)
 }
 
